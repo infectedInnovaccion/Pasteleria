@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La boulangerie "Los panchos"</title>
+</head>
+    <body>
+        <h1>Bienvenidos a la pasteleria "Los panchos"</h1>
+        <p>A contontinuacion se muestra nuestra seleccion de pasteles que tenemos a disposicion.
+            Puedes escoger los que quieras, y hacer el pedido.
+        </p>
+        <h1>Nuestros pasteles</h1>
+        <input type="checkbox" id="pastelChocolate" name="pastelChocolate" value="chocolate">
+        <label for="pastelChocolate"> Pastel de chocolate</label><br>
+        <input type="checkbox" id="pastelFrambuesa" name="pastelFrambuesa" value="Frambuesa">
+        <label for="pastelFrambuesa"> Pastel de frambuesa</label><br>
+        <input type="checkbox" id="pastelFrutas" name="pastelFrutas" value="Frutas">
+        <label for="pastelFrutas"> Pastel de Frutas</label><br>
+        <input type="checkbox" id="pastelCheescake" name="pastelCheescake" value="cheescake">
+        <label for="pastelCheescake">Cheescake</label><br>
+
+        <h1>Pasteles personalizados</h1>
+        <h3>Tipo de masa</h3>
+        <input type="radio" id="hojaldre" name="tipoMasa" value="Hojaldre">
+        <label for="hojaldre">Hojaldre</label>
+        <input type="radio" id="azucarada" name="tipoMasa" value="azucarada">
+        <label for="azucarada">Azucarada</label>
+        <input type="radio" id="escaldada" name="tipoMasa" value="escaldada">
+        <label for="escaldada">Escaldada</label>
+        <input type="radio" id="batida" name="tipoMasa" value="batida">
+        <label for="batida">Batida</label><br>
+        
+        <h3>Covertura</h3>
+        <input type="radio" id="cover_Chocolate" name="tipoCovertura" value="chocolate">
+        <label for="cover_Chocolate">Chocolate</label>
+        <input type="radio" id="cover_Vainilla" name="tipoCovertura" value="vainilla">
+        <label for="cover_Vainilla">Vainilla</label>
+        <input type="radio" id="cover_Fresa" name="tipoCovertura" value="Fresa">
+        <label for="cover_Fresa">Fresa</label><br>
+
+        <h3>Adicionales</h3>
+        <input type="checkbox" id="topping_gomitas" name="topping_gomitas" value="Gomitas">
+        <label for="">Gomitas</label><br>
+        <input type="checkbox" id="topping_chispas" name="topping_chispas" value="Chispas">
+        <label for="">Chispas</label><br>
+        <input type="checkbox" id="topping_cerezas" name="topping_cerezas" value="Cerezas">
+        <label for="">Cerezas</label><br>
+        <input type="checkbox" id="topping_chocoretas" name="topping_chocoretas" value="Chocoretas">
+        <label for="">Chocoretas</label><br>
+
+        <br><br><br><button type="button">Agregar</button>
+        <br><br>
+        <form action="">
+            <label for="fname">Nombre: </label><br>
+            <input type="text" id="fname" name="fname" value="Alexis"><br>
+            <label for="lname">Apellido: </label><br>
+            <input type="text" id="lname" name="lname" value="Perez"><br>
+            <label for="phone">Telefono</label><br>
+            <input type="number" name="phone" id="phone" value="5544778899"><br>
+            <label for="addrs">Direccion: </label><br>
+            <input type="text" name="addrs" id="addrs" value="Juan de la barrear depto 54b"><br>
+            <label for="email">Correo electronico: </label><br>
+            <input type="email" name="email" id="email" value="sampl3@nonreplu.com">
+            <br><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
